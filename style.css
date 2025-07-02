@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.left-panel,
+.right-panel {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.input_video {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#focus-status {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+}
+
+.right-panel h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.right-panel p {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+#topic {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#sendBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 15px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#sendBtn:hover {
+  background-color: #218838;
+}
+
+#lesson-box {
+  width: 90%;
+  max-width: 800px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+  min-height: 100px;
+}
+
+#lesson-text {
+  font-size: 16px;
+  color: #444;
+}
